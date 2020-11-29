@@ -1,0 +1,225 @@
+@import 'node_modules/intl-tel-input/build/css/intlTelInput.css';
+
+@font-face {
+    font-family: League Spartan;
+    src: url(league-spartan-master/webfonts/leaguespartan-bold.woff);
+  }
+
+  body{
+    font-family: League Spartan !important;
+  }
+
+  .iti__flag {background-image: url("node_modules/intl-tel-input/build/img/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("node_modules/intl-tel-input/build/img/flags.png") !important;}
+}
+
+.p-top__intro__wrapper {
+    width: 100%;
+    position: inherit;
+    left: 0;
+    transform: none;
+ 
+    background-color: #fff;
+    opacity: 1;
+
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px ;
+
+}
+.p-top__phone_wrapper{
+    width: 100%;
+    position: inherit;
+    left: 0;
+    transform: none;
+ 
+    background-color: #fff;
+    opacity: 1;
+
+ 
+}
+
+.p-top__intro__wrapper {
+    overflow: hidden;
+    text-align: center;
+    }
+.l-container__layout--m {
+    position: relative;
+
+    margin: 0 auto;
+}
+.p-top__intro__inner {
+    position: relative;
+    z-index: 2;
+    }
+
+
+.down_buttons{
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 60px !important;
+    width: 90%;
+    letter-spacing: 1px;
+    padding: 15px !important;
+}
+.whatsapp_button{
+    background-color: #25D366;
+    box-shadow: 5px 5px 20px 0px #25D366;
+    margin-bottom: 40px;
+}
+.next_button{
+    background-color: #22243B;
+}
+.background{
+    background: transparent url(images/bg_image.png) no-repeat top /cover fixed;
+
+}
+
+.layer_color{
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
+
+}
+.name{
+    color: #FFC233;
+
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+.skills{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.skills_text{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+}
+.hrdivider {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hrdivider span {
+    position: absolute;
+    top: -11px;
+    background: #fff;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .header-text-phone{
+      margin-right: 0 !important;
+      height: 85vh;
+  }
+  .header-text-index{
+    margin-right: 0 !important;
+    height: 32vh;
+}
+  .hr_div{
+      margin: 0 !important;
+  }
+
+  .or{
+      color: #707070;
+  }
+
+
+
+.intl-tel-input {
+  display: table-cell;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+.input-group .intl-tel-input .form-control {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+}
+
+.iti__flag.iti__us{
+    border-radius: 50%;
+}
+.arrow_css{
+    font-size: 60px !important;
+}
+.iti{
+    width: 100% !important;
+}
+#phone{
+    padding: 30px 55px;
+    border-radius: 10px;
+}
+.machine_selector_title{
+    padding: 30px 0 0 30px;
+}
+.machine_selector_text{
+    opacity: 0.25;
+    padding: 5px 0 0 30px;
+}
+.nav-icon{
+    font-size: 25px;
+}
+.line{
+    /* Line */
+    position: absolute;
+    width: 71px;
+    height: 1px;
+    left: 37.5px;
+    top: 292px;
+    border-bottom: 1px solid #FFC233;
+
+}
+.policy-text{
+    font-size: 10px;
+    color: #BFBFBF;
+}
+.machinery_deck{
+    margin-bottom: 0;
+    margin: 0 15px;
+}
+.one_machine_card{
+    border: none;
+    height: 100%;
+    align-items: center ;
+
+}
+.one_machine_col{
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+
+  
+}
+.active_one_machine_card{
+    border: 4px solid #f0f0f0 !important;
+    border-radius: 12px !important;
+}
+.active_one_machine_col{
+    background: #f0f0f0 !important;
+}
+.card-deck .card{
+        margin-bottom: 0 !important;
+}
+.tick{
+
+    position: absolute;
+    top: 10px;
+    height: 20px;
+    left: 10px;
+}
+.onclick_tick{
+    display: none;
+}
+.card-img-top{
+    height: 100px;
+}
